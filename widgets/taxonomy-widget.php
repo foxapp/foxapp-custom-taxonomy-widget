@@ -7,15 +7,16 @@ class Elementor_Taxonomy_Widget extends \Elementor\Widget_Base {
 	}
 
 	public function get_title() {
-		return __('FoxApp Taxonomy Widget', 'elementor');
+		return __('FoxApp Taxonomy', 'elementor');
 	}
 
 	public function get_icon() {
-		return 'fa fa-tags';
+		//return 'fa fa-tags';
+		return 'faicon-post-taxonomy';
 	}
 
 	public function get_categories() {
-		return ['basic'];
+		return ['foxapp'];
 	}
 
 	protected function register_controls() {
