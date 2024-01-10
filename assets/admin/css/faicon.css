@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'faicon';
-	src:  url('fonts/faicon.eot?z9zeto');
-	src:  url('fonts/faicon.eot?z9zeto#iefix') format('embedded-opentype'),
-	url('fonts/faicon.ttf?z9zeto') format('truetype'),
-	url('fonts/faicon.woff?z9zeto') format('woff'),
-	url('fonts/faicon.svg?z9zeto#faicon') format('svg');
+	src:  url('../fonts/faicon.eot?z9zeto');
+	src:  url('../fonts/faicon.eot?z9zeto#iefix') format('embedded-opentype'),
+	url('../fonts/faicon.ttf?z9zeto') format('truetype'),
+	url('../fonts/faicon.woff?z9zeto') format('woff'),
+	url('../fonts/faicon.svg?z9zeto#faicon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;

@@ -4,7 +4,7 @@
  * Plugin Name: FoxApp - Custom Taxonomy Widget
  * Plugin URI: https://plugins.foxapp.net/foxapp-custom-taxonomy-widget
  * Description: With this plugin, developers can keep information about their projects privately on the GitHub up to date.
- * Version: 1.2.0
+ * Version: 1.2.1
  * Author: FoxApp
  * Author URI: https://plugins.foxapp.net/
  * Requires at least: 6.2
@@ -20,13 +20,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Defining plugin constants.
  *
- * @since 1.2.0
+ * @since 1.2.1
  */
 define( 'FAEL_PLUGIN_FILE', __FILE__ );
 define( 'FAEL_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
 define( 'FAEL_PLUGIN_PATH', trailingslashit( plugin_dir_path( __FILE__ ) ) );
 define( 'FAEL_PLUGIN_URL', trailingslashit( plugins_url( '/', __FILE__ ) ) );
-define( 'FAEL_PLUGIN_VERSION', '1.2.0' );
+define( 'FAEL_PLUGIN_VERSION', '1.2.1' );
 define( 'FAEL_ASSET_PATH', wp_upload_dir()['basedir'] . '/foxapp-addons-elementor' );
 define( 'FAEL_ASSET_URL', wp_upload_dir()['baseurl'] . '/foxapp-addons-elementor' );
 
@@ -123,5 +123,5 @@ if ( ! class_exists( 'FoxAppPostTaxonomy' ) ) {
 
 	}
 
-	new FoxAppTaxonomy();
+	new FoxAppPostTaxonomy();
 }
